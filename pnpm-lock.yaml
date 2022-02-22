@@ -10,6 +10,7 @@ specifiers:
   '@types/react-dom': ^17.0.10
   '@vitejs/plugin-react': ^1.0.7
   gts: ^3.1.0
+  lodash: ^4.17.21
   react: ^17.0.2
   react-dom: ^17.0.2
   typescript: ^4.5.4
@@ -20,6 +21,7 @@ dependencies:
   '@emotion/react': 11.8.1_7c3ecd89bd75b61b41f2029715ea2305
   '@emotion/styled': 11.8.1_c697ad3c4ddb0545c7a1d619984abba5
   '@mui/material': 5.4.3_a557939b8cd577a0014b488227bec235
+  lodash: 4.17.21
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
 
@@ -2164,7 +2166,6 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
