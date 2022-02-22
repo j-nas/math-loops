@@ -13,6 +13,7 @@ specifiers:
   lodash: ^4.17.21
   react: ^17.0.2
   react-dom: ^17.0.2
+  react-toastify: ^8.2.0
   typescript: ^4.5.4
   vite: ^2.8.0
 
@@ -24,6 +25,7 @@ dependencies:
   lodash: 4.17.21
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-toastify: 8.2.0_react-dom@17.0.2+react@17.0.2
 
 devDependencies:
   '@types/node': 14.18.12
@@ -2552,6 +2554,17 @@ packages:
     resolution: {integrity: sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react-toastify/8.2.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Pg2Ju7NngAamarFvLwqrFomJ57u/Ay6i6zfLurt/qPynWkAkOthu6vxfqYpJCyNhHRhR4hu7+bySSeWWJu6PAg==}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      clsx: 1.1.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
 
   /react-transition-group/4.4.2_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==}
