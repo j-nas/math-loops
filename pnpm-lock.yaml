@@ -4,12 +4,14 @@ specifiers:
   '@babel/core': '7'
   '@emotion/react': ^11.8.1
   '@emotion/styled': ^11.8.1
+  '@fontsource/roboto': ^4.5.3
   '@mui/material': ^5.4.3
   '@types/node': ^14.11.2
   '@types/react': ^17.0.33
   '@types/react-dom': ^17.0.10
   '@vitejs/plugin-react': ^1.0.7
   gts: ^3.1.0
+  js-confetti: ^0.10.2
   lodash: ^4.17.21
   react: ^17.0.2
   react-dom: ^17.0.2
@@ -21,7 +23,9 @@ dependencies:
   '@babel/core': 7.17.5
   '@emotion/react': 11.8.1_7c3ecd89bd75b61b41f2029715ea2305
   '@emotion/styled': 11.8.1_c697ad3c4ddb0545c7a1d619984abba5
+  '@fontsource/roboto': 4.5.3
   '@mui/material': 5.4.3_a557939b8cd577a0014b488227bec235
+  js-confetti: 0.10.2
   lodash: 4.17.21
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -430,6 +434,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/roboto/4.5.3:
+    resolution: {integrity: sha512-NUvBTj332dFRdiVkLlavXbDGoD2zyyeGYmMyrXOnctg/3e4pq95+rJgNfUP+k4v8UBk2L1aomGw9dDjbRdAmTg==}
+    dev: false
 
   /@humanwhocodes/config-array/0.5.0:
     resolution: {integrity: sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==}
@@ -2079,6 +2087,10 @@ packages:
   /isexe/2.0.0:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
+
+  /js-confetti/0.10.2:
+    resolution: {integrity: sha512-/ppeGV3sOJ/DDH43ABbqe8V/9Fx5TUNkywPlXr9YK9OK6++olMtRP/yRdXftl49iTIAAdoNopkgAy3SLOgSE+A==}
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
